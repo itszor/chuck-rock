@@ -1,0 +1,174 @@
+{
+ "name": "chuck-rock",
+ "title": "Chuck Rock (Core Design, 1991; Archimedes conversion by Krisalis)",
+ "platform": "acorn-archimedes",
+ "doc": "A recipe: how to turn a user's own copy of the game into a native executable. It holds no game data: the inputs are recognised by content (see $SS/tools/weave.py).",
+ "inputs": {
+  "containers": {
+   "Chuck Rock (1991)(Krisalis).zip": "a0506f23c67bc1a2f91050a3d753ce376b395c588bedf414b79089fd3550d801"
+  },
+  "formats": [
+   "adf",
+   "zip"
+  ]
+ },
+ "discs": [
+  {
+   "name": "disc1",
+   "title": "Chuck Rock disc 1: !Chuck (the loader, GAME, the music module, the intro)",
+   "known_images": [
+    "d49294762e6b1a03b9ce23ac9449717de74a5132b118ef1b8be26ce261b6a2e7"
+   ],
+   "key_files": {
+    "!Chuck/!Run": "217bca614a22f2660c6fcd56a6ceb62c15b7138764601ec21af71486a6c07a44",
+    "!Chuck/ChuckProg": "be833862f502020447cc43b4316b42f8ba669fbbaa055a98e1482dca97bed2ed",
+    "!Chuck/GAME": "68cf68a2acdf053a66a1ea4af2496d78020bda4ac6b5370746994564dfd33617",
+    "!Chuck/MUSMOD2": "1a65ab21fb3ea487960825ec81ab79bf299e3d22fbc6d267f41491f1751f0a86",
+    "!Chuck/KRIS": "5672244ffb3bafdd0f0b990de94ce33f7a7f3d99e1bb08bb5f8bfc7d2f019653",
+    "!Chuck/CHSEQ1": "07244e286dbbb1d937176bf579a0461a9debf3d27d9dd2ed13f29565e4365607",
+    "!Chuck/CHSEQ2": "6b36c81afa77f5e97f44da3aaa03098060790d67eb9a5bc80796b92abedc26e1",
+    "!Chuck/CHSEQ3": "6afbb4fc562447808fa413de951ea03b793b4c0dec057fb63b096e4f61a0ca09",
+    "!Chuck/CHSEQ4": "8d75ebfa6637d7f93a3574cc3f481bf92bcea26ee3ac49e6d14d6cee7e39b927"
+   },
+   "game_dirs": [
+    "!Chuck"
+   ],
+   "alternatives": [
+    {
+     "name": "zip",
+     "title": "Chuck Rock installed on a hard disc (the TOSEC zip): !Chuck, disc 2's CHUCK inside it",
+     "known_images": [
+      "88c8414b6a4c0ba6120cb56b81724dab5b7a680b76a3828b74a1ff4be8c640ce"
+     ],
+     "key_files": {
+      "!Chuck/!Run": "217bca614a22f2660c6fcd56a6ceb62c15b7138764601ec21af71486a6c07a44",
+      "!Chuck/ChuckProg": "be833862f502020447cc43b4316b42f8ba669fbbaa055a98e1482dca97bed2ed",
+      "!Chuck/GAME": "68cf68a2acdf053a66a1ea4af2496d78020bda4ac6b5370746994564dfd33617",
+      "!Chuck/MUSMOD2": "1a65ab21fb3ea487960825ec81ab79bf299e3d22fbc6d267f41491f1751f0a86",
+      "!Chuck/KRIS": "5672244ffb3bafdd0f0b990de94ce33f7a7f3d99e1bb08bb5f8bfc7d2f019653",
+      "!Chuck/CHSEQ1": "07244e286dbbb1d937176bf579a0461a9debf3d27d9dd2ed13f29565e4365607",
+      "!Chuck/CHSEQ2": "6b36c81afa77f5e97f44da3aaa03098060790d67eb9a5bc80796b92abedc26e1",
+      "!Chuck/CHSEQ3": "6afbb4fc562447808fa413de951ea03b793b4c0dec057fb63b096e4f61a0ca09",
+      "!Chuck/CHSEQ4": "8d75ebfa6637d7f93a3574cc3f481bf92bcea26ee3ac49e6d14d6cee7e39b927"
+     },
+     "game_dirs": [
+      "!Chuck"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "disc2",
+   "title": "Chuck Rock disc 2: CHUCK (the levels: their code, graphics and maps; the music and samples)",
+   "known_images": [
+    "c8bd7cbc26bdc377f48ddde45281a8be7c78bcbebba1ec72f2bd8716ce315f78"
+   ],
+   "key_files": {
+    "CHUCK/CMUS": "4e8744b4f3f52de4af67a3fdac8e163b307ff056775f0294ee26ea1a8ef4af1e",
+    "CHUCK/ZMUS": "0aa88a74be3f5ce98ac530ecc6c434416fd626946c3ba8781fb84ac1864a663e",
+    "CHUCK/SAMPS": "61997dcc593dbcfb4f94c078b6b9b8d9b9c5d1a43c9d4c98c09e715d987a56fd",
+    "CHUCK/TITGFX": "334753a462985e74eb5cc5156e77e10aff9154720e5620abcef9b1dafb44e378",
+    "CHUCK/ENDSCR": "f6a8ce9e2a56bc185bf61a93cacb8e5665910a966d9102853a41061662f68ece",
+    "CHUCK/DRIVETEST": "f67ab10ad4e4c53121b6a5fe4da9c10ddee905b978d3788d2723d7bfacbe28a9",
+    "CHUCK/CODE1": "e51f2408b7646cd7a6088d5b9e81da9f3914d3f6af795e0eacc0c8d6e8191272",
+    "CHUCK/LGFX1": "a7d3d859b52a4b788b435c7af72639d802ef2460eb67c7618337731bd964ad66",
+    "CHUCK/DGFX1": "8dc3b8dd5dce7da3ba2b7c1460970fb9357384773c4cd64316876b13b9a44670",
+    "CHUCK/EGFX1": "433f71d24abb5a3bdbd2ac367cb0c18c38d1b568628e2e9750654788c4e681a1",
+    "CHUCK/DINSDT1": "0b275188daef25484b9777b9478aa3c62a26be012c741e491506eb412ec36928",
+    "CHUCK/EOLSDT1": "d263298f4ebf049ce43e1a9bcffd7ffc9ac5e741c089d1594d76b5fdfcaca353",
+    "CHUCK/CODE2": "67aa66d261a9b976d1a56033921a11896442d2739f26085dc26027b60166a0e5",
+    "CHUCK/LGFX2": "fa9e68a869946abee0d1d1a932d11072c5b7da5fa37a732017e3394fb275b707",
+    "CHUCK/DGFX2": "a37a061d1bf09438f543d00f51dfd0e222c8408ada6899c08f6d560383af5cfe",
+    "CHUCK/EGFX2": "0a687944e0a39b6234accf1fbe64152b87f7a79dba9ac80a96117ab45fcf283b",
+    "CHUCK/DINSDT2": "159f98b08a80ce6cbaac4520caaf771b3e0314df4d3d0eaa13ff15f07395218b",
+    "CHUCK/EOLSDT2": "737d5a4655a23ea15ba712dca8f9553358aa3b1a811d6d198f20721565fdae4f",
+    "CHUCK/CODE3": "88211a882643186a234cfd3d893b56179dc496fc759d3ac6b89b30d78a08c23d",
+    "CHUCK/LGFX3": "5c0265d994e6bbbe009399b22d1b7e65931875da965d07733c0af6945b5c333d",
+    "CHUCK/DGFX3": "7167d0df4d65de8107e56a9acbeb556d3e62184bde528b18a4e7265f76f53a73",
+    "CHUCK/EGFX3": "060b0a3738e23d51ef33a5c26640709713f8f8074377f99f724f3a57dcdae883",
+    "CHUCK/DINSDT3": "85a3914cb24303e59be3a6b1b55a2b71f0a1e80c38047310b86936b2e94ee667",
+    "CHUCK/EOLSDT3": "e8565ffea90304e9e89c91183a11e5f4d1b5952ca8a8807b2e6afbfc8d896d8d",
+    "CHUCK/CODE4": "1b9e3f5160842790f5e1454a93422caa8dac446575feef8eea1f8c558e301fe1",
+    "CHUCK/LGFX4": "cb0db9b236027836c165195cb3d3bfdd78b982f09bb20b6c9dd6f228273fec4e",
+    "CHUCK/DGFX4": "6795707540cdf4219d64dcc67a750de971a2ebd70db95120a1ddfbdfaa7cb696",
+    "CHUCK/EGFX4": "0e3579c0878220fb90dd639f6cb0aa240eb785d14ffd8903f9ef20bf52686ca7",
+    "CHUCK/DINSDT4": "68d8be3234d4dfde35e4f4d9cb6edbc910fb26e7ed519370a0e929831680b3d7",
+    "CHUCK/EOLSDT4": "73aeb096def770b7787dfb05956f628a82dd82afa99fb50794836bf478740b05",
+    "CHUCK/CODE5": "fefe2d62d8f09b86eda673f873f927d806e863e7df744e3880660418d168d2a1",
+    "CHUCK/LGFX5": "2c3d0742580a9e6da5d6b67e5c9abd6fee719596775990075b820e48d15c72c1",
+    "CHUCK/DGFX5": "e8066c898ea513f2119138856f73fc3cbeb3827a29fa344361ac654bead9999c",
+    "CHUCK/DINSDT5": "a8500ae93619fe485916e2281a11a23e1b5339fec81ff4cfd02a3dcac44fa54e",
+    "CHUCK/EOLSDT5": "c97f6e592c862cdd3074f9648c9f1d07df6f4a71ec6bbf4a3680d1913b9c635a"
+   },
+   "game_dirs": [
+    "CHUCK"
+   ],
+   "alternatives": [
+    {
+     "name": "zip-chuck",
+     "title": "disc 2's CHUCK, installed in !Chuck (the TOSEC zip)",
+     "known_images": [
+      "88c8414b6a4c0ba6120cb56b81724dab5b7a680b76a3828b74a1ff4be8c640ce"
+     ],
+     "key_files": {
+      "!Chuck/CHUCK/CMUS": "4e8744b4f3f52de4af67a3fdac8e163b307ff056775f0294ee26ea1a8ef4af1e",
+      "!Chuck/CHUCK/ZMUS": "0aa88a74be3f5ce98ac530ecc6c434416fd626946c3ba8781fb84ac1864a663e",
+      "!Chuck/CHUCK/SAMPS": "61997dcc593dbcfb4f94c078b6b9b8d9b9c5d1a43c9d4c98c09e715d987a56fd",
+      "!Chuck/CHUCK/TITGFX": "334753a462985e74eb5cc5156e77e10aff9154720e5620abcef9b1dafb44e378",
+      "!Chuck/CHUCK/ENDSCR": "f6a8ce9e2a56bc185bf61a93cacb8e5665910a966d9102853a41061662f68ece",
+      "!Chuck/CHUCK/DRIVETEST": "f67ab10ad4e4c53121b6a5fe4da9c10ddee905b978d3788d2723d7bfacbe28a9",
+      "!Chuck/CHUCK/CODE1": "e51f2408b7646cd7a6088d5b9e81da9f3914d3f6af795e0eacc0c8d6e8191272",
+      "!Chuck/CHUCK/LGFX1": "a7d3d859b52a4b788b435c7af72639d802ef2460eb67c7618337731bd964ad66",
+      "!Chuck/CHUCK/DGFX1": "8dc3b8dd5dce7da3ba2b7c1460970fb9357384773c4cd64316876b13b9a44670",
+      "!Chuck/CHUCK/EGFX1": "433f71d24abb5a3bdbd2ac367cb0c18c38d1b568628e2e9750654788c4e681a1",
+      "!Chuck/CHUCK/DINSDT1": "0b275188daef25484b9777b9478aa3c62a26be012c741e491506eb412ec36928",
+      "!Chuck/CHUCK/EOLSDT1": "d263298f4ebf049ce43e1a9bcffd7ffc9ac5e741c089d1594d76b5fdfcaca353",
+      "!Chuck/CHUCK/CODE2": "67aa66d261a9b976d1a56033921a11896442d2739f26085dc26027b60166a0e5",
+      "!Chuck/CHUCK/LGFX2": "fa9e68a869946abee0d1d1a932d11072c5b7da5fa37a732017e3394fb275b707",
+      "!Chuck/CHUCK/DGFX2": "a37a061d1bf09438f543d00f51dfd0e222c8408ada6899c08f6d560383af5cfe",
+      "!Chuck/CHUCK/EGFX2": "0a687944e0a39b6234accf1fbe64152b87f7a79dba9ac80a96117ab45fcf283b",
+      "!Chuck/CHUCK/DINSDT2": "159f98b08a80ce6cbaac4520caaf771b3e0314df4d3d0eaa13ff15f07395218b",
+      "!Chuck/CHUCK/EOLSDT2": "737d5a4655a23ea15ba712dca8f9553358aa3b1a811d6d198f20721565fdae4f",
+      "!Chuck/CHUCK/CODE3": "88211a882643186a234cfd3d893b56179dc496fc759d3ac6b89b30d78a08c23d",
+      "!Chuck/CHUCK/LGFX3": "5c0265d994e6bbbe009399b22d1b7e65931875da965d07733c0af6945b5c333d",
+      "!Chuck/CHUCK/DGFX3": "7167d0df4d65de8107e56a9acbeb556d3e62184bde528b18a4e7265f76f53a73",
+      "!Chuck/CHUCK/EGFX3": "060b0a3738e23d51ef33a5c26640709713f8f8074377f99f724f3a57dcdae883",
+      "!Chuck/CHUCK/DINSDT3": "85a3914cb24303e59be3a6b1b55a2b71f0a1e80c38047310b86936b2e94ee667",
+      "!Chuck/CHUCK/EOLSDT3": "e8565ffea90304e9e89c91183a11e5f4d1b5952ca8a8807b2e6afbfc8d896d8d",
+      "!Chuck/CHUCK/CODE4": "1b9e3f5160842790f5e1454a93422caa8dac446575feef8eea1f8c558e301fe1",
+      "!Chuck/CHUCK/LGFX4": "cb0db9b236027836c165195cb3d3bfdd78b982f09bb20b6c9dd6f228273fec4e",
+      "!Chuck/CHUCK/DGFX4": "6795707540cdf4219d64dcc67a750de971a2ebd70db95120a1ddfbdfaa7cb696",
+      "!Chuck/CHUCK/EGFX4": "0e3579c0878220fb90dd639f6cb0aa240eb785d14ffd8903f9ef20bf52686ca7",
+      "!Chuck/CHUCK/DINSDT4": "68d8be3234d4dfde35e4f4d9cb6edbc910fb26e7ed519370a0e929831680b3d7",
+      "!Chuck/CHUCK/EOLSDT4": "73aeb096def770b7787dfb05956f628a82dd82afa99fb50794836bf478740b05",
+      "!Chuck/CHUCK/CODE5": "fefe2d62d8f09b86eda673f873f927d806e863e7df744e3880660418d168d2a1",
+      "!Chuck/CHUCK/LGFX5": "2c3d0742580a9e6da5d6b67e5c9abd6fee719596775990075b820e48d15c72c1",
+      "!Chuck/CHUCK/DGFX5": "e8066c898ea513f2119138856f73fc3cbeb3827a29fa344361ac654bead9999c",
+      "!Chuck/CHUCK/DINSDT5": "a8500ae93619fe485916e2281a11a23e1b5339fec81ff4cfd02a3dcac44fa54e",
+      "!Chuck/CHUCK/EOLSDT5": "c97f6e592c862cdd3074f9648c9f1d07df6f4a71ec6bbf4a3680d1913b9c635a",
+      "!Chuck/CHUCK/EGFX5": "935b4534dffe351d3774560e3e299369ee293b9c273251c2b437f4937b4e23c1"
+     },
+     "game_dirs": []
+    }
+   ]
+  }
+ ],
+ "build": [
+  "python3 -I \"$WEAVE\" extract . INPUTS",
+  "python3 -I tools/install.py",
+  "make -C recomp regen",
+  "make -C recomp"
+ ],
+ "output": "recomp/chuckrock",
+ "requires": {
+  "superspider": "~/stuff/superspider, or $SUPERSPIDER (dune build): analyse, gen (--range), tools/weave.py, tools/arm2.py",
+  "libroger": "~/stuff/libroger, or make ROGER=... (roger_program.at)",
+  "host": [
+   "python3",
+   "ocaml + dune",
+   "gcc",
+   "SDL3 (pkg-config sdl3)"
+  ]
+ },
+ "run": "cd recomp && ./chuckrock"
+}

@@ -1,0 +1,26 @@
+# The original game and everything made from it stay out of the
+# repository: build.sh (recipe.json) remakes them from the user's own copy.
+*.zip
+*.adf
+extracted/
+game/
+unpacked/
+run*/
+analysis/*.json
+analysis/*.dis
+recomp/gen/
+recomp/genprog/
+recomp/genmus/
+recomp/genlevel*/
+recomp/*.o
+recomp/chuckrock
+recomp/*.events
+recomp/*.vdu
+recomp/*.screen
+recomp/*.regs
+recomp/*.bmp
+recomp/*.png
+recomp/*.wav
+recomp/vidc.log
+recomp/untranslated.log
+recomp/savedata/
