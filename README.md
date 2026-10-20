@@ -38,7 +38,7 @@ The inputs, either form:
     recomp/chuckrock         the game
 
 Committed: recipe.json, build.sh, tools/install.py, tools/unpack.py,
-recomp/Makefile, recomp/game.c, analysis/*.roots (when there are any),
+recomp/Makefile, recomp/game.c, recomp/chuckrock.ini, analysis/*.roots (when there are any),
 this file.
 
 How the game is put together
