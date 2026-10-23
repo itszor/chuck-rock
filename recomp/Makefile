@@ -11,7 +11,7 @@ GENMUS  := $(wildcard genmus/code*.c) genmus/entries.c
 LEVELS  := 1 2 3 4 5
 GENLEV  := $(foreach n,$(LEVELS),$(wildcard genlevel$(n)/code*.c) genlevel$(n)/entries.c)
 OBJ     := $(GEN:.c=.o) $(GENPROG:.c=.o) $(GENMUS:.c=.o) $(GENLEV:.c=.o) game.o
-LIBS    := $(shell pkg-config --libs sdl3) -lm -lpthread
+LIBS    := $(shell pkg-config --libs sdl3) -ljpeg -lm -lpthread
 INC     := -I$(ROGER)/include
 
 chuckrock: $(OBJ) $(ROGER)/libroger.a
